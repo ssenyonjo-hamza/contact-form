@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="">
+        <h2>Contact Our Team</h2>
+
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          name="full-name"
+          id="name"
+          placeholder="E.g SSenyonjo Hamza"
+          required
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="E.g user@email.com"
+        />
+
+        <label for="message">Special message:</label>
+        <textarea
+          name="message"
+          id="message"
+          required
+          placeholder="Please enter your message"
+        ></textarea>
+
+        <button type="submit">Submit Form</button>
+      </form>
+    </div>
+  </body>
+</html>
