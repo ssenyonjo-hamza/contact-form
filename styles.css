@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(90deg, green, rgba(0, 255, 0, 0.5));
+  text-align: center;
+}
+
+form {
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50vw;
+  margin: auto;
+}
+
+label {
+  color: hsla(0, 0%, 0%, 0.61);
+  margin: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: aqua;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+button {
+  background-color: brown;
+  color: aqua;
+  font-size: x-large;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: hotpink;
+  cursor: pointer;
+}
